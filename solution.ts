@@ -38,7 +38,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
   return obj[key];
 }
 
-const user = { id: 1, name: "John Doe", age: 21 };
+const user = { id: 1, name: '"' + "John Doe" + '"', age: 21  };
 console.log(getProperty(user, "name")); 
 
 
@@ -57,23 +57,41 @@ function toggleReadStatus(book: Book): Book & { isRead: boolean } {
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 console.log(toggleReadStatus(myBook));
 
+
 //Problem 6 solution
 
 class Person {
-  constructor(public name: string, public age: number) {}
+  public name: string;
+  public age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
 }
 
 class Student extends Person {
-  constructor(name: string, age: number, public grade: string) {
+  public grade: string;
+
+  constructor(name: string, age: number, grade: string) {
     super(name, age);
+    this.grade = grade;
   }
 
   getDetails(): string {
-    return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
+    return ` ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
 }
 
-const student = new Student("Alice", 20, "A");
-console.log(student.getDetails()); 
+const student = new Student('"' + "Name: Alice", 20, "A" + '"');
+console.log(student.getDetails());
+
 
 //Problem 7 solution
+
+function getIntersection(arr1: number[], arr2: number[]): number[] {
+  return arr1.filter(item => arr2.includes(item));
+}
+
+console.log(getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7])); 
+
