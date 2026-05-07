@@ -32,8 +32,8 @@ Code Snipped :
 type UserWithoutSensitiveData = Omit <User, "id" | "isAdmin">;
 
 const publicProfile: UserWithoutSensitiveData = {
-  name: "Jane",
-  email: "jane@example.com",
+  name: "nafi",
+  email: "nafi@example.com",
   age: 25
 };
 
