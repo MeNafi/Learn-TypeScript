@@ -44,6 +44,7 @@ const user = { id: 1, name: "John Doe", age: 21 };
 console.log(getProperty(user, "name")); 
 
 
+
 //Problem 5 solution
 
 interface Book {
