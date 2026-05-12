@@ -1,2 +1,2 @@
-## Solve Problem On TypeSc
+## Solve Problem On Type
 
