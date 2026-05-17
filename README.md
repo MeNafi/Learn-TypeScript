@@ -1,2 +1,2 @@
-## Solve Problem On TypeScriptt
+## Solve Problem On Ty
 
