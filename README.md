@@ -1,2 +1,2 @@
-## Solve Problem On Ty
+## Solve Problem On Typ
 
