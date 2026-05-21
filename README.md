@@ -1,3 +1,3 @@
-## Solve Problem On TypeScrpi
+## Solve Problem On TypeScrpit
 
 
