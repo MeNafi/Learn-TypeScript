@@ -1,3 +1,3 @@
-## Solve Problem On Type
+## Solve Problem On TypeS
 
 
