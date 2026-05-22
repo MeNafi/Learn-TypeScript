@@ -1,3 +1,3 @@
-## Solve Problem On TypeScrpit
+## Solve Problem On TypeS
 
 
