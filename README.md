@@ -1,3 +1,3 @@
-## Solve Problem On TypeScri
+## Solve Problem On TypeScrip
 
 
