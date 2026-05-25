@@ -17,8 +17,6 @@ userId = 505;    // ✅ Valid
 
 
 
-
-
 /* 
 Intersection Types (&) — "অ্যান্ড" (AND) : Intersection মানে হলো দুটি আলাদা টাইপকে জোড়া লাগিয়ে একটি নতুন টাইপ বানানো। এটি অ্যামপারস্যান্ড (&) চিহ্ন দিয়ে প্রকাশ করা হয়।
 
@@ -37,6 +35,7 @@ type TStoreDetails = {
 
 // Intersection: Combining both types into one
 type TFullStoreInfo = TStoreOwner & TStoreDetails;
+
 
 const myStore: TFullStoreInfo = {
     ownerName: "Abir",
