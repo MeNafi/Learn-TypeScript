@@ -2,7 +2,6 @@
 
 ##### 𝐋𝐞𝐚𝐫𝐧 𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭 – A complete beginner to advanced TypeScript learning repository for JavaScript developers. This repository is designed to help developers learn TypeScript quickly with structured folders, practical examples, OOP concepts, interview preparation, and real-world problem-solving. Every topic includes easy Bangla explanations, code breakdowns, summaries, benefits, and use cases to make learning simple and effective.
 
-
 ## 📚 What You Will Learn
 
 This repository covers almost every important TypeScript topic from basic to advanced level.
